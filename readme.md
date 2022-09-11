@@ -12,3 +12,6 @@ As a first example of SVD we compressed an image to ilustrate concept of sorted 
 
 ![alt text](assets/img-gray.png "Original")
 ![alt text](assets/r6011p.png "Compressed")
+
+# Unitary transformation
+This notebook deepens understanding of SVD. Unitary matrix U is a carrier of left rotation of space and S (sigma) warps the space.
