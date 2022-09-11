@@ -10,8 +10,10 @@ Decomposition splits matrix X into three other matrices U, S (sigma) and V. U an
 # Image compression
 As a first example of SVD we compressed an image to ilustrate concept of sorted eigenvalues and eigenvectors in the matrices. By getting only first 60 rows of computed SV decomposition we were able to keep fairly good compression - 11% of original size. Introduced Eckard-Young theorem tells us that this is best aproximation of original image in terms of Forbenius norm.
 
-![alt text](assets/img-gray.png "Original")
-![alt text](assets/r6011p.png "Compressed")
+![img-gray](assets/img-gray.png "Original")
+![compressed image](assets/r6011p.png "Compressed")
 
 # Unitary transformation
 This notebook deepens understanding of SVD. Unitary matrix U is a carrier of left rotation of space and S (sigma) warps the space.
+![Original space](assets/original_space.png "Original space")
+![Wrapped space](assets/wraped_space.png "Wrapped")
