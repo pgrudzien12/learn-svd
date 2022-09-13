@@ -17,3 +17,10 @@ As a first example of SVD we compressed an image to ilustrate concept of sorted 
 This notebook deepens understanding of SVD. Unitary matrix U is a carrier of left rotation of space and S (sigma) warps the space.
 ![Original space](assets/original_space.png "Original space")
 ![Wrapped space](assets/wraped_space.png "Wrapped")
+
+# Simple linear regression
+File: lin_regression_simple.ipynb
+
+Demonstrates simple case of linear regression using SVD method. I learned how SVD extends solving Ax=b into non square matrices A to get the solution that has minimal ||*|| L2 norm.
+
+![Linear regression](assets/simple_lin_regression.png "Solved")
